@@ -1,0 +1,746 @@
+Interview question:
+
+Python questions:
+
+1: print
+2: Variables for Strings
+3: Variables for Numbers
+4: Math expressions: Familiar operators
+5: Variable Names Legal and Illegal
+6: Math expressions: Unfamiliar operators
+7: Math expressions: Eliminating ambiguity
+8: Concatenating text strings
+9: if statements
+10: Comparison operators
+11: else and elif statements
+12: Testing sets of conditions
+13: if statements nested
+14: Comments
+15: Lists
+16: Lists: Adding and changing elements
+17: Lists: Taking slices out of them
+18: Lists: Deleting and removing elements
+19: Lists: popping elements
+20: Tuples
+21: for loops
+22: for loops nested
+23: Getting information from the user and converting strings and
+numbers
+24: Changing case
+25: Dictionaries: What they are
+26: Dictionaries: How to code one
+27: Dictionaries: How to pick information out of them
+28: Dictionaries: The versatility of keys and values
+29: Dictionaries: Adding items
+30: Dictionaries: Removing and changing items
+31: Dictionaries: Looping through values
+32: Dictionaries: Looping through keys
+33: Dictionaries: Looping through key-value pairs
+34: Creating a list of dictionaries
+35: How to pick information out of a list of dictionaries
+36: How to append a new dictionary to a list of dictionaries
+37: Creating a dictionary that contains lists
+38: How to get information out of a list within a dictionary
+39: Creating a dictionary that contains a dictionary
+40: How to get information out of a dictionary within another dictionary
+41: Functions
+42: Functions: Passing them information
+43: Functions: Passing information to them a different way
+44: Functions: Assigning a default value to a parameter
+45: Functions: Mixing positional and keyword arguments
+46: Functions: Dealing with an unknown number of arguments
+47: Functions: Passing information back from them
+48: Using functions as variables (which is what they really are)
+49: Functions: Local vs. global variables
+50: Functions within functions
+51: While loops
+52: While loops: Setting a flag
+53: Classes
+54: Classes: Starting to build the structure
+55: Classes: A bit of housekeeping
+56: Classes: Creating an instance
+57: Classes: A little more complexity
+58: Classes: Getting info out of instances
+59: Classes: Building functions into them
+60: Classes: Coding a method
+61: Classes: Changing an attribute's value
+62: Data files
+63: Data files: Storing data
+64: Data files: Retrieving data
+65: Data files: Appending data
+66: Modules
+67: CSV files
+68: CSV files: Reading them
+69: CSV files: Picking information out of them
+69: CSV files: Picking information out of them
+70: CSV files: Loading information into them. Part 1
+71: CSV files: Loading information into them. Part 2
+72: CSV files: Loading information into them. Part 3
+73: CSV files: Appending rows to them.
+74: How to save a Python list or dictionary in a file: JSON
+75: How to retrieve a Python list or dictionary from a JSON file
+76: Planning for things to go wrong
+77: A more practical example of exception handling
+
+
+
+advanced :
+
+
+What is pickling and unpickling?
+How is Python interpreted?
+How is memory managed in Python?
+What are Python decorators?
+What is the difference between list and tuple?
+How are arguments passed by value or by reference?
+What is Dict and List comprehensions are?
+What are built-in type does python provides?
+
+Mutable built-in types are: 
+List
+Sets
+Dictionaries
+Immutable built-in types
+Strings
+Tuples
+Numbers
+
+Immutable built-in types are:
+
+Strings
+Tuples
+Numbers
+
+
+What is lambda in Python?
+How can you copy an object in Python?
+What is negative index in Python?
+What is the difference between xrange and range?
+
+Xrange returns the xrange object while range returns the list and uses the same memory and no matter what the range size is.
+
+What are the rules for local and global variables in Python?
+Here are the rules for local and global variables in Python:
+
+Local variables: If a variable is assigned a new value anywhere within the function’s body, it’s assumed to be local.
+
+Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+
+How can you share global variables across modules?
+
+
+
+##########################   Data Science  ##########################
+
+what is data science
+Differentiate Between Data Analytics and Data Science
+What are the differences between supervised and unsupervised learning?
+what is logistic regression
+Explain the steps in making a decision tree.
+How do you build a random forest model?
+How can you avoid overfitting your model?
+Differentiate between univariate, bivariate, and multivariate analysis.
+What are the feature selection methods used to select the right variables?
+You are given a data set consisting of variables with more than 30 percent missing values. How will you deal with them?
+How do you find RMSE and MSE in a linear regression model?
+How can you select k for k-means? 
+How can outlier values be treated?
+How can time-series data be declared as stationery?
+How can you calculate accuracy using a confusion matrix?
+Write the equation and calculate the precision and recall rate.
+People who bought this also bought…' recommendations seen on Amazon are a result of which algorithm?
+You are given a dataset on cancer detection. You have built a classification model and achieved an accuracy of 96 percent. Why shouldn't you be happy with your model performance? What can you do about it?
+Which of the following machine learning algorithms can be used for inputting missing values of both categorical and continuous variables?
+K-means clustering
+Linear regression 
+K-NN (k-nearest neighbor)
+Decision trees 
+We want to predict the probability of death from heart disease based on three risk factors: age, gender, and blood cholesterol level. What is the most appropriate algorithm for this case?
+Choose the correct option:
+
+Logistic Regression 
+Linear Regression
+K-means clustering 
+Apriori algorithm
+The most appropriate algorithm for this case is A, logistic regression. 
+You have run the association rules algorithm on your dataset, and the two rules {banana, apple} => {grape} and {apple, orange} => {grape} have been found to be relevant. What else must be true?
+
+What are the popular libraries used in Data Science?
+The popular libraries used in Data Science are 
+
+Tensor Flow
+Pandas
+NumPy
+SciPy
+Scrapy
+Librosa
+MatPlotLib
+
+What is k-fold cross-validation?
+
+What is Deep Learning?
+ 
+What is an RNN (recurrent neural network)?
+
+What is logistic regression?
+
+What are recommender systems?
+
+Explain cross-validation
+
+What does NLP stand for?
+
+############################ Numpy ############################
+
+What is NumPy?
+
+What are the uses of NumPy?
+ 
+What are the various features of NumPy?
+ 
+Q1: How is KNN different from k-means clustering?
+
+ K-Nearest Neighbors is a supervised classification algorithm, while k-means clustering is an unsupervised clustering algorithm. While the mechanisms may seem similar at first, what this really means is that in order for K-Nearest Neighbors to work, you need labeled data you want to classify an unlabeled point into (thus the nearest neighbor part). K-means clustering requires only a set of unlabeled points and a threshold: the algorithm will take unlabeled points and gradually learn how to cluster them into groups by computing the mean of the distance between different points.
+
+The critical difference here is that KNN needs labeled points and is thus supervised learning, while k-means doesn’t—and is thus unsupervised learning.
+
+Q2.What is Bayes’ Theorem?
+
+Answer: Bayes’ Theorem gives you the posterior probability of an event given what is known as prior knowledge.
+
+
+Q3.What’s your favorite algorithm, and can you explain it to me in less than a minute?
+
+
+Q4.What is deep learning, and how does it contrast with other machine learning algorithms?
+Q5.How would you handle an imbalanced dataset?
+Q6.When should you use classification over regression?
+Q7.How do you ensure you’re not overfitting with a model?
+Q8.How do you handle missing or corrupted data in a dataset?
+Q9.What are some differences between a linked list and an array?
+Q10.What are the last machine learning papers you’ve read?
+Q11.What are your favorite use cases of machine learning models?
+Q12.Where do you usually source datasets?
+Q13.What are some of your favorite APIs to explore? 
+Q14.How do you think quantum computing will affect machine learning?
+Q15.Mention the difference between Data Mining and Machine learning?
+Q16.Why overfitting happens?
+Q17.How can you avoid overfitting?
+Q18.What are the five popular algorithms of Machine Learning?
+    Decision Trees
+    Neural Networks (back propagation)
+    Probabilistic networks
+    Nearest Neighbor
+    Support vector machines
+
+Q19.What are the different Algorithm techniques in Machine Learning?
+
+    Supervised Learning
+    Unsupervised Learning
+    Semi-supervised Learning
+    Reinforcement Learning
+    Transduction
+    Learning to Learn
+
+
+
+
+Q20.What is the standard approach to supervised learning?
+    The standard approach to supervised learning is to split the set of example into the training set and the test.
+
+Q21. Explain what is the function of ‘Unsupervised Learning’?
+    Find clusters of the data
+    Find low-dimensional representations of the data
+    Find interesting directions in data
+    Interesting coordinates and correlations
+    Find novel observations/ database cleaning
+
+Q22.Explain what is the function of ‘Supervised Learning’?
+
+
+    Classifications
+    Speech recognition
+    Regression
+    Predict time series
+    Annotate strings
+
+
+
+Q23.In what areas Pattern Recognition is used?
+
+Pattern Recognition can be used in
+
+    Computer Vision
+    Speech Recognition
+    Data Mining
+    Statistics
+    Informal Retrieval
+    Bio-Informatics
+
+
+Q24.Give a popular application of machine learning that you see on day to day basis?
+
+The recommendation engine implemented by major ecommerce websites uses Machine Learning.List the advantages NumPy Arrays have over (nested) Python lists?
+
+List the steps to create a 1D array and 2D array
+
+How do you create a 3D array?
+
+What are the steps to use shape for a 1D array, 2D array and 3D/ND array respectively?
+ 
+How can you identify the datatype of a given NumPy array?
+
+How do you check for an empty (zero Element) array?
+
+Why is NumPy so fast?
+
+What is the difference between NumPy and Pandas?
+
+What is the difference between a NumPy array and a Python array?
+
+Is NumPy a module or library?
+
+
+############################ Pandas ############################
+
+
+Define the Pandas/Python pandas?
+
+Mention the different types of Data Structures in Pandas?
+
+Define Series in Pandas?
+
+
+How can we calculate the standard deviation from the Series?
+
+Define DataFrame in Pandas?
+ 
+Explain Reindexing in pandas? 
+
+What is the name of Pandas library tools used to create a scatter plot matrix?
+
+
+Define the different ways a DataFrame can be created in pandas?
+
+How will you create a series from dict in Pandas?
+
+How can we create a copy of the series in Pandas?
+
+
+How will you create an empty DataFrame in Pandas?
+
+How will you add a column to a pandas DataFrame?
+
+How to add an Index, row, or column to a Pandas DataFrame?Interview question:
+
+Python questions:
+
+1: print
+2: Variables for Strings
+3: Variables for Numbers
+4: Math expressions: Familiar operators
+5: Variable Names Legal and Illegal
+6: Math expressions: Unfamiliar operators
+7: Math expressions: Eliminating ambiguity
+8: Concatenating text strings
+9: if statements
+10: Comparison operators
+11: else and elif statements
+12: Testing sets of conditions
+13: if statements nested
+14: Comments
+15: Lists
+16: Lists: Adding and changing elements
+17: Lists: Taking slices out of them
+18: Lists: Deleting and removing elements
+19: Lists: popping elements
+20: Tuples
+21: for loops
+22: for loops nested
+23: Getting information from the user and converting strings and
+numbers
+24: Changing case
+25: Dictionaries: What they are
+26: Dictionaries: How to code one
+27: Dictionaries: How to pick information out of them
+28: Dictionaries: The versatility of keys and values
+29: Dictionaries: Adding items
+30: Dictionaries: Removing and changing items
+31: Dictionaries: Looping through values
+32: Dictionaries: Looping through keys
+33: Dictionaries: Looping through key-value pairs
+34: Creating a list of dictionaries
+35: How to pick information out of a list of dictionaries
+36: How to append a new dictionary to a list of dictionaries
+37: Creating a dictionary that contains lists
+38: How to get information out of a list within a dictionary
+39: Creating a dictionary that contains a dictionary
+40: How to get information out of a dictionary within another dictionary
+41: Functions
+42: Functions: Passing them information
+43: Functions: Passing information to them a different way
+44: Functions: Assigning a default value to a parameter
+45: Functions: Mixing positional and keyword arguments
+46: Functions: Dealing with an unknown number of arguments
+47: Functions: Passing information back from them
+48: Using functions as variables (which is what they really are)
+49: Functions: Local vs. global variables
+50: Functions within functions
+51: While loops
+52: While loops: Setting a flag
+53: Classes
+54: Classes: Starting to build the structure
+55: Classes: A bit of housekeeping
+56: Classes: Creating an instance
+57: Classes: A little more complexity
+58: Classes: Getting info out of instances
+59: Classes: Building functions into them
+60: Classes: Coding a method
+61: Classes: Changing an attribute's value
+62: Data files
+63: Data files: Storing data
+64: Data files: Retrieving data
+65: Data files: Appending data
+66: Modules
+67: CSV files
+68: CSV files: Reading them
+69: CSV files: Picking information out of them
+69: CSV files: Picking information out of them
+70: CSV files: Loading information into them. Part 1
+71: CSV files: Loading information into them. Part 2
+72: CSV files: Loading information into them. Part 3
+73: CSV files: Appending rows to them.
+74: How to save a Python list or dictionary in a file: JSON
+75: How to retrieve a Python list or dictionary from a JSON file
+76: Planning for things to go wrong
+77: A more practical example of exception handling
+
+
+
+advanced :
+
+
+What is pickling and unpickling?
+How is Python interpreted?
+How is memory managed in Python?
+What are Python decorators?
+What is the difference between list and tuple?
+How are arguments passed by value or by reference?
+What is Dict and List comprehensions are?
+What are built-in type does python provides?
+
+Mutable built-in types are: 
+List
+Sets
+Dictionaries
+Immutable built-in types
+Strings
+Tuples
+Numbers
+
+Immutable built-in types are:
+
+Strings
+Tuples
+Numbers
+
+
+What is lambda in Python?
+How can you copy an object in Python?
+What is negative index in Python?
+What is the difference between xrange and range?
+
+Xrange returns the xrange object while range returns the list and uses the same memory and no matter what the range size is.
+
+What are the rules for local and global variables in Python?
+Here are the rules for local and global variables in Python:
+
+Local variables: If a variable is assigned a new value anywhere within the function’s body, it’s assumed to be local.
+
+Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+
+How can you share global variables across modules?
+
+
+
+##########################   Data Science  ##########################
+
+what is data science
+Differentiate Between Data Analytics and Data Science
+What are the differences between supervised and unsupervised learning?
+what is logistic regression
+Explain the steps in making a decision tree.
+How do you build a random forest model?
+How can you avoid overfitting your model?
+Differentiate between univariate, bivariate, and multivariate analysis.
+What are the feature selection methods used to select the right variables?
+You are given a data set consisting of variables with more than 30 percent missing values. How will you deal with them?
+How do you find RMSE and MSE in a linear regression model?
+How can you select k for k-means? 
+How can outlier values be treated?
+How can time-series data be declared as stationery?
+How can you calculate accuracy using a confusion matrix?
+Write the equation and calculate the precision and recall rate.
+People who bought this also bought…' recommendations seen on Amazon are a result of which algorithm?
+You are given a dataset on cancer detection. You have built a classification model and achieved an accuracy of 96 percent. Why shouldn't you be happy with your model performance? What can you do about it?
+Which of the following machine learning algorithms can be used for inputting missing values of both categorical and continuous variables?
+K-means clustering
+Linear regression 
+K-NN (k-nearest neighbor)
+Decision trees 
+We want to predict the probability of death from heart disease based on three risk factors: age, gender, and blood cholesterol level. What is the most appropriate algorithm for this case?
+Choose the correct option:
+
+Logistic Regression 
+Linear Regression
+K-means clustering 
+Apriori algorithm
+The most appropriate algorithm for this case is A, logistic regression. 
+You have run the association rules algorithm on your dataset, and the two rules {banana, apple} => {grape} and {apple, orange} => {grape} have been found to be relevant. What else must be true?
+
+What are the popular libraries used in Data Science?
+The popular libraries used in Data Science are 
+
+Tensor Flow
+Pandas
+NumPy
+SciPy
+Scrapy
+Librosa
+MatPlotLib
+
+What is k-fold cross-validation?
+
+What is Deep Learning?
+ 
+What is an RNN (recurrent neural network)?
+
+What is logistic regression?
+
+What are recommender systems?
+
+Explain cross-validation
+
+What does NLP stand for?
+
+############################ Numpy ############################
+
+What is NumPy?
+
+What are the uses of NumPy?
+ 
+What are the various features of NumPy?
+ 
+List the advantages NumPy Arrays have over (nested) Python lists?
+
+List the steps to create a 1D array and 2D array
+
+How do you create a 3D array?
+
+What are the steps to use shape for a 1D array, 2D array and 3D/ND array respectively?
+ 
+How can you identify the datatype of a given NumPy array?
+
+How do you check for an empty (zero Element) array?
+
+Why is NumPy so fast?
+
+What is the difference between NumPy and Pandas?
+
+What is the difference between a NumPy array and a Python array?
+
+Is NumPy a module or library?
+
+
+############################ Pandas ############################
+
+
+Define the Pandas/Python pandas?
+
+Mention the different types of Data Structures in Pandas?
+
+Define Series in Pandas?
+
+
+How can we calculate the standard deviation from the Series?
+
+Define DataFrame in Pandas?
+ 
+Explain Reindexing in pandas? 
+
+What is the name of Pandas library tools used to create a scatter plot matrix?
+
+
+Define the different ways a DataFrame can be created in pandas?
+
+How will you create a series from dict in Pandas?
+
+How can we create a copy of the series in Pandas?
+
+How will you create an empty DataFrame in Pandas?
+
+How will you add a column to a pandas DataFrame?
+
+How to add an Index, row, or column to a Pandas DataFrame?
+
+How to Delete Indices, Rows or Columns From a Pandas Data Frame?
+
+How to Rename the Index or Columns of a Pandas DataFrame?
+
+How to get the items not common to both series A and series B?
+ 
+How to get the minimum, 25th percentile, median, 75th, and max of a numeric series?
+
+How to get frequency counts of unique items of a series?
+
+How to convert a numpy array to a dataframe of given shape?
+
+How can we convert a Series to DataFrame?
+
+What is Pandas NumPy array?
+
+How can we convert DataFrame into a NumPy array?
+
+How can we sort the DataFrame?
+
+What is Time Series in Pandas?
+
+What is Data Aggregation?
+ 
+How to Delete Indices, Rows or Columns From a Pandas Data Frame?
+
+How to Rename the Index or Columns of a Pandas DataFrame?
+
+How to get the items not common to both series A and series B?
+ 
+How to get the minimum, 25th percentile, median, 75th, and max of a numeric series?
+
+How to get frequency counts of unique items of a series?
+
+How to convert a numpy array to a dataframe of given shape?
+
+How can we convert a Series to DataFrame?
+
+What is Pandas NumPy array?
+
+How can we convert DataFrame into a NumPy array?
+
+How can we sort the DataFrame?
+
+What is Time Series in Pandas?
+
+What is Data Aggregation?
+ 
+ 
+
+
+
+
+Advance Ai :
+
+
+Q1: How is KNN different from k-means clustering?
+
+ K-Nearest Neighbors is a supervised classification algorithm, while k-means clustering is an unsupervised clustering algorithm. While the mechanisms may seem similar at first, what this really means is that in order for K-Nearest Neighbors to work, you need labeled data you want to classify an unlabeled point into (thus the nearest neighbor part). K-means clustering requires only a set of unlabeled points and a threshold: the algorithm will take unlabeled points and gradually learn how to cluster them into groups by computing the mean of the distance between different points.
+
+The critical difference here is that KNN needs labeled points and is thus supervised learning, while k-means doesn’t—and is thus unsupervised learning.
+
+Q2.What is Bayes’ Theorem?
+
+Answer: Bayes’ Theorem gives you the posterior probability of an event given what is known as prior knowledge.
+
+
+Q3.What’s your favorite algorithm, and can you explain it to me in less than a minute?
+
+
+Q4.What is deep learning, and how does it contrast with other machine learning algorithms?
+Q5.How would you handle an imbalanced dataset?
+Q6.When should you use classification over regression?
+Q7.How do you ensure you’re not overfitting with a model?
+Q8.How do you handle missing or corrupted data in a dataset?
+Q9.What are some differences between a linked list and an array?
+Q10.What are the last machine learning papers you’ve read?
+Q11.What are your favorite use cases of machine learning models?
+Q12.Where do you usually source datasets?
+Q13.What are some of your favorite APIs to explore? 
+Q14.How do you think quantum computing will affect machine learning?
+Q15.Mention the difference between Data Mining and Machine learning?
+Q16.Why overfitting happens?
+Q17.How can you avoid overfitting?
+Q18.What are the five popular algorithms of Machine Learning?
+    Decision Trees
+    Neural Networks (back propagation)
+    Probabilistic networks
+    Nearest Neighbor
+    Support vector machines
+
+Q19.What are the different Algorithm techniques in Machine Learning?
+
+    Supervised Learning
+    Unsupervised Learning
+    Semi-supervised Learning
+    Reinforcement Learning
+    Transduction
+    Learning to Learn
+
+
+
+
+Q20.What is the standard approach to supervised learning?
+    The standard approach to supervised learning is to split the set of example into the training set and the test.
+
+Q21. Explain what is the function of ‘Unsupervised Learning’?
+    Find clusters of the data
+    Find low-dimensional representations of the data
+    Find interesting directions in data
+    Interesting coordinates and correlations
+    Find novel observations/ database cleaning
+
+Q22.Explain what is the function of ‘Supervised Learning’?
+
+
+    Classifications
+    Speech recognition
+    Regression
+    Predict time series
+    Annotate strings
+
+
+
+Q23.In what areas Pattern Recognition is used?
+
+Pattern Recognition can be used in
+
+    Computer Vision
+    Speech Recognition
+    Data Mining
+    Statistics
+    Informal Retrieval
+    Bio-Informatics
+
+
+Q24.Give a popular application of machine learning that you see on day to day basis?
+
+The recommendation engine implemented by major ecommerce websites uses Machine Learning.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
